@@ -20,16 +20,36 @@
       </nav>
     </header>
     <main class="flexCenterRow">
-      <section>
-        <h1>Velkommen? til min side</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
-          neque aut alias quam, adipisci maxime.
-        </p>
-        <button>Press</button>
+      <section id="home" class="sectionHero">
+        <form>
+          <label for="inputText">
+            Skriv navnet ditt
+            <input type="text" name="inputText" id="inputText" placeholder="Ola Nordamnn">
+          </label>
+
+          <label for="inputNumber">
+            <input type="number" name="inputNumber" id="inputNumber">
+          </label>
+
+          <label for="inputCheck1">
+            <input type="checkbox" name="inputCheck1" id="inputCheck1">
+          </label>
+
+          <label for="inputCheck2">
+            <input type="checkbox" name="inputCheck2" id="inputCheck2">
+          </label>
+
+          <label for="selectOptions">
+            Velg mellom
+            <select name="selectOptions" id="selectOptions">
+              <option value="pickUp">Hent selv</option>
+              <option value="deliver">Leveranse</option>
+            </select>
+          </label>
+
+          <button id="submitButton">Send</button>
+        </form>
       </section>
-      <section></section>
-      <section></section>
     </main>
     <footer>
       <h3 class="foottekst">
